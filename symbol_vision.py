@@ -100,5 +100,5 @@ test_image = preprocess_image("5.jpg")
 result = predict(test_image, weights_hidden_input, bias_hidden_input, weights_hidden_output, bias_hidden_output)
 
 plt.imshow(test_image.reshape(28, 28), cmap="Greys")
-plt.title(f"NN suggests the CUSTOM number is: {result}")
+plt.title(f"Результат предсказания: {result}")
 plt.show()
